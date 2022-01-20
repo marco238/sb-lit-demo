@@ -20,6 +20,7 @@
     "@storybook/addon-essentials": "^6.4.10",
     "@storybook/addon-links": "^6.4.10",
     "@storybook/web-components": "^6.4.10",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "refresh-badge": "git+ssh://git@github.com:marco238/refreshBadge.git#upgrade"
   }
 }

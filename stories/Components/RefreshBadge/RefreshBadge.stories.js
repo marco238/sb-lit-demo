@@ -1,8 +1,13 @@
 import { html } from 'lit-html';
-import './refresh-badge';
+require('../../../node_modules/refresh-badge/src/refresh-badge');
 
 export default {
-  title: 'Components/RefreshBadge'
+  title: 'Components/RefreshBadge',
+  addParameters: {
+    actions: {
+      handles: ['discoveryRetuxComponent'],
+    },
+  },
 };
 
 const Template = (args) => html`
