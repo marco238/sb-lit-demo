@@ -1,5 +1,5 @@
 import { html } from 'lit-html';
-require('../../../node_modules/refresh-badge/src/refresh-badge');
+//require('../../../node_modules/refresh-badge/src/refresh-badge');
 
 export default {
   title: 'Components/RefreshBadge',
@@ -11,7 +11,7 @@ export default {
 };
 
 const Template = (args) => html`
-    <refresh-badge .news=${args.news}></refresh-badge>
+    <p></p>
 `;
 
 export const SingleNews = Template.bind({});

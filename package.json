@@ -11,6 +11,7 @@
   "author": "Marcos Monzón",
   "license": "ISC",
   "dependencies": {
+    "@unidad-editorial/ue-scoreboard-dual": "git+ssh://git@gitlab.internet.int:UEComponents/ueScoreboardDual.git",
     "lit": "^2.0.2"
   },
   "devDependencies": {
@@ -20,7 +21,6 @@
     "@storybook/addon-essentials": "^6.4.10",
     "@storybook/addon-links": "^6.4.10",
     "@storybook/web-components": "^6.4.10",
-    "babel-loader": "^8.2.3",
-    "refresh-badge": "git+ssh://git@github.com:marco238/refreshBadge.git#upgrade"
+    "babel-loader": "^8.2.3"
   }
 }
