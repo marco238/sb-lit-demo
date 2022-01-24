@@ -32,6 +32,6 @@ export default create({
 //   inputBorderRadius: 4,
 
   brandTitle: 'My custom storybook',
-  brandUrl: 'http://localhost:6006/?path=/story/introduction--page',
-  brandImage: 'https://suscripcion.elmundo.es/media/wysiwyg/arw/logo_unidad_editorial_b.png',
+  brandUrl: 'https://marco238.github.io/sb-lit-demo/?path=/story/introduction--page',
+  brandImage: '../assets/UE_logo.png',
 });
