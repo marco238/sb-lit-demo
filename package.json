@@ -11,7 +11,8 @@
   "author": "Marcos Monzón",
   "license": "ISC",
   "dependencies": {
-    "@unidad-editorial/ue-scoreboard-dual": "git+ssh://git@gitlab.internet.int:UEComponents/ueScoreboardDual.git",
+    "@unidad-editorial/ue-scoreboard-dual": "git+ssh://git@gitlab.internet.int:UEComponents/ueScoreboardDual.git#feature/scoreboard_storybook",
+    "@unidad-editorial/ue-table-ranking": "git+ssh://git@gitlab.internet.int:UEComponents/ueTableRanking.git",
     "lit": "^2.0.2"
   },
   "devDependencies": {
