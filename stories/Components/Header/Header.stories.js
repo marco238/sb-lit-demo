@@ -1,7 +1,7 @@
 import { Header } from './Header';
 
 export default {
-  title: 'Components/Header',
+  title: 'Lit Components/Header',
 };
 
 const Template = (args) => Header(args);

@@ -3,7 +3,7 @@ import '@material/mwc-linear-progress';
 
 // More on default export: https://storybook.js.org/docs/web-components/writing-stories/introduction#default-export
 export default {
-  title: 'Components/LinearProgress',
+  title: 'Lit Components/LinearProgress',
   argTypes: {
     progress: {
         control: {

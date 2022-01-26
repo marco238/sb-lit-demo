@@ -8,5 +8,22 @@ module.exports = {
     "@storybook/addon-essentials"
   ],
   "framework": "@storybook/web-components",
-  "staticDirs": ['../public']
+  "staticDirs": ['../public'],
+  "refs": {
+    'external-components': {
+      "title": "Chromatic",
+      "url": "https://5ccbc373887ca40020446347-yldsqjoxzb.chromatic.com",
+      "expanded": false // optional, true by default
+    },
+    'react-components': {
+      "title": "React Components",
+      "url": "http://localhost:6007",
+      "expanded": false // optional, true by default
+    },
+    'angular-components': {
+      "title": "Angular Components",
+      "url": "http://localhost:6008",
+      "expanded": false // optional, true by default
+    }
+  }
 }

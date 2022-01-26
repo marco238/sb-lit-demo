@@ -2,7 +2,7 @@ import { html } from 'lit-html';
 require('../../../node_modules/refresh-badge/src/refresh-badge');
 
 export default {
-  title: 'Components/RefreshBadge',
+  title: 'Lit Components/RefreshBadge',
   addParameters: {
     actions: {
       handles: ['discoveryRetuxComponent'],
