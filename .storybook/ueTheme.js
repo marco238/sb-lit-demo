@@ -33,5 +33,5 @@ export default create({
 
   brandTitle: 'My custom storybook',
   brandUrl: 'https://marco238.github.io/sb-lit-demo/?path=/story/introduction--page',
-  brandImage: './UE_logo.png',
+  brandImage: './cc.png',
 });

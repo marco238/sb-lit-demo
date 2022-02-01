@@ -8,5 +8,5 @@ module.exports = {
     "@storybook/addon-essentials"
   ],
   "framework": "@storybook/web-components",
-  "staticDirs": ['../public']
+  "staticDirs": ['../.storybook/public']
 }

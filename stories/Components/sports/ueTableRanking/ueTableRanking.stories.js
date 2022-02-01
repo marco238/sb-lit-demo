@@ -1,5 +1,4 @@
 import { html } from 'lit-html';
-import '@unidad-editorial/ue-table-ranking'
 
 export default {
 	title: 'Components/sports/ueTableRanking/ueTableRanking',
