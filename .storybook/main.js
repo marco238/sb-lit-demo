@@ -9,7 +9,7 @@ module.exports = {
     "@storybook/addon-docs"
   ],
   "framework": "@storybook/web-components",
-  "staticDirs": ['../public'],
+  "staticDirs": ['../.storybook/public'],
   "refs": {
     'external-components': {
       "title": "Chromatic",
