@@ -1,9 +1,8 @@
 import { Button } from './Button';
+import CustomMDXDocumentation from './Button.mdx';
 
-// More on default export: https://storybook.js.org/docs/web-components/writing-stories/introduction#default-export
 export default {
   title: 'Lit Components/Button',
-  // More on argTypes: https://storybook.js.org/docs/web-components/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
     onClick: { action: 'onClick' },
@@ -12,13 +11,16 @@ export default {
       options: ['small', 'medium', 'large'],
     },
   },
+  parameters: {
+    docs: {
+      page: CustomMDXDocumentation,
+    },
+  },
 };
 
-// More on component templates: https://storybook.js.org/docs/web-components/writing-stories/introduction#using-args
 const Template = (args) => Button(args);
 
 export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/web-components/writing-stories/args
 Primary.args = {
   primary: true,
   label: 'Button',

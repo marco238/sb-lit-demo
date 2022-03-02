@@ -16,10 +16,10 @@
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@material/mwc-linear-progress": "^0.25.3",
-    "@storybook/addon-actions": "^6.4.10",
-    "@storybook/addon-essentials": "^6.4.10",
-    "@storybook/addon-links": "^6.4.10",
-    "@storybook/web-components": "^6.4.10",
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/web-components": "^6.4.14",
     "babel-loader": "^8.2.3",
     "refresh-badge": "git+ssh://git@github.com:marco238/refreshBadge.git#upgrade"
   }
