@@ -11,6 +11,8 @@
   "author": "Marcos Monzón",
   "license": "ISC",
   "dependencies": {
+    "@unidad-editorial/ue-scoreboard-dual": "git+ssh://git@gitlab.internet.int:UEComponents/ueScoreboardDual.git#feature/scoreboard_storybook",
+    "@unidad-editorial/ue-table-ranking": "git+ssh://git@gitlab.internet.int:UEComponents/ueTableRanking.git",
     "lit": "^2.0.2"
   },
   "devDependencies": {
@@ -20,7 +22,8 @@
     "@storybook/addon-essentials": "^6.4.14",
     "@storybook/addon-links": "^6.4.14",
     "@storybook/web-components": "^6.4.14",
-    "babel-loader": "^8.2.3",
-    "refresh-badge": "git+ssh://git@github.com:marco238/refreshBadge.git#upgrade"
+    "refresh-badge": "git+ssh://git@github.com:marco238/refreshBadge.git#upgrade",
+    "@storybook/addon-toolbars": "^6.4.17",
+    "babel-loader": "^8.2.3"
   }
 }
